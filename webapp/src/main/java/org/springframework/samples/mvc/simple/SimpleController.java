@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class SimpleController {
 
-	@RequestMappin("/simple")
+	@RequestMapping("/simple")
 	public @ResponseBody String simple() {
 		return "Hello world!";
 	}
